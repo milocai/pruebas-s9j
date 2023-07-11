@@ -96,10 +96,9 @@ Se adopta una estrategia de **pruebas de caja negra**.
 
 El fuerte del proceso aplicado sera la automatización de las **pruebas _end-to-end_** mediante el uso de [Playwright](https://playwright.dev/).
 
-Aquellas pruebas automatizadas que fallen, se reproducirán manualmente para poder reportar el defecto.
-
 Se realizarán pruebas de **regresión** para asegurar que los cambios realizados no afecten el funcionamiento de los módulos ya probados.
 
+>Aquellas pruebas automatizadas que fallen, se reproducirán manualmente para poder reportar el defecto.
 
 ### Entregables de prueba
 1. Plan de pruebas.
@@ -154,7 +153,7 @@ Las pruebas se suspenderán en los siguientes casos:
 
 Si el defecto que causa la falla del sistema es resuelto, se ejecutarán las pruebas de regresión a la nueva versión. Si la nueva versión de prueba pasa la prueba de regresión, entonces puede reanudarse la ejecución de pruebas.
 
-En caso de fallas de hardware o de entorno, el tester notificará al área correspondiente y comenzará sus pruebas pendientes cuando las reparaciones se hayan efectuado. Las pruebas deben reanudarse desde el principio.
+>En caso de fallas de hardware o de entorno, el tester notificará al área correspondiente y comenzará sus pruebas pendientes cuando las reparaciones se hayan efectuado. Las pruebas deben reanudarse desde el principio.
 
 ### Dotación de personal: roles y responsabilidades
 #### Líder del equipo de pruebas
@@ -205,11 +204,11 @@ Entre los requisitos específicos para el personal de prueba adicional que llega
 - Manejo de herramientas de pruebas (manuales o automatizadas)
 - Experiencia trabajando en equipo y con metodologías ágiles.
 
-La dotación de personal puede lograrse mediante transferencia interna, contratación externa, consultores o subcontratistas.
+>La dotación de personal puede lograrse mediante transferencia interna, contratación externa, consultores o subcontratistas.
 
-
+---
 ## Cronograma de pruebas
-El tiempo de duración comprende la **implementación** en código para ser automatizada, la **ejecución** de la suite de pruebas correspondiente al módulo y la **confección del informe** de resultados.
+
 
 | Módulo a probar | Inicio | Fin | Duración |
 | --- | --- | --- | --- |
@@ -221,6 +220,9 @@ El tiempo de duración comprende la **implementación** en código para ser auto
 | Visualización de cronograma de trabajo para los empleados | 18/08/23 | 23/08/23 | 5 días |
 | Visualización de novedades mensuales | 23/08/23 | 28/08/23 | 5 días |
 
+>El tiempo de duración comprende la **implementación** en código para ser automatizada, la **ejecución** de la suite de pruebas correspondiente al módulo y la **confección del informe** de resultados.
+
+---
 ## Diseño de las pruebas
 ### Enfoque de pruebas
 Se adopta el enfoque del _**"camino feliz"**_ en la automatización de las pruebas. Se han de probar los casos de prueba que representen el flujo de trabajo normal del sistema.
