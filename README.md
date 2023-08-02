@@ -1,12 +1,12 @@
 # Plan de Pruebas
 ---
 ## Información del Documento
-Identificación del documento:  
-Versión:  
-Emitido por: (organización emisora)  
-Fecha de emisión:  dd/mm/aaaa  
-Autoridad de aprobación:  (sanatorio)  
-Historial de cambios:  (repositorio)
+**Identificación del documento:** TP-S9J  
+**Versión:** 1.0  
+**Emitido por:** Sergio Rubino  
+**Fecha de emisión:**  dd/mm/aaaa  
+**Autoridad de aprobación:**  Jordan Funes  
+**Historial de cambios:**  (repositorio)
 
 ---
 ## Contenido
@@ -234,10 +234,7 @@ Los casos de prueba diseñados se encuentran en el siguiente [repositorio](test-
 
 ### Formato de casos de prueba
 
-Se seguirá el formato de la plantilla de casos de prueba que se muestra en la siguiente imagen.
-
-![Plantilla de casos de pruebas](image.png)
-
+Se seguirá el formato de la [plantilla de casos de prueba](/test-cases/template.md).
 
 
 ### Suites de prueba
