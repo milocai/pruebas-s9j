@@ -50,3 +50,4 @@ test('must be a successful login as coordinator user', async ({ page }) => {
   await expect(page).toHaveURL(`${URL_LOCAL}${REDIRECT_FROM_COORDINATOR_TO_PAGE.dailyPart}`)
 })
 ```
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-login.spec.ts](/e2e/login_test/ts-login.spec.ts).

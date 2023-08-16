@@ -53,3 +53,4 @@ test('must show an error message when entering a wrong record', async ({
   await expect(textError).toBeVisible()
 })
 ```
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-login.spec.ts](/e2e/login_test/ts-login.spec.ts).

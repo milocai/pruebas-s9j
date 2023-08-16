@@ -50,3 +50,5 @@ test('must be a successful login as admin user', async ({ page }) => {
   await expect(page).toHaveURL(`${URL_LOCAL}${PAGE_LOGIN_REDIRECT.Admin}`)
 })
 ```
+
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-login.spec.ts](/e2e/login_test/ts-login.spec.ts).

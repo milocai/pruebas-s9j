@@ -49,3 +49,4 @@ test('must show an error message when the inputs are empty', async ({
   await expect(page.getByText('La contraseña es requerido')).toBeVisible()
 })
 ```
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-login.spec.ts](/e2e/login_test/ts-login.spec.ts).
