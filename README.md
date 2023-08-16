@@ -1,12 +1,11 @@
 # Plan de Pruebas
----
-## Información del Documento
+
 **Identificación del documento:** TP-S9J  
 **Versión:** 1.0  
 **Emitido por:** Sergio Rubino  
-**Fecha de emisión:**  dd/mm/aaaa  
+**Fecha de emisión:**  20/07/2023  
 **Autoridad de aprobación:**  Jordan Funes  
-**Historial de cambios:**  (repositorio)
+**Historial de cambios:**  se visualiza en este repositorio.
 
 ---
 ## Contenido
@@ -68,6 +67,8 @@ Se presentan las siguientes definiciones, acrónimos y abreviaturas utilizadas:
 - **Defecto**: error en el sistema.
 - **CRUD**: acrónimo de _Create, Read, Update, Delete_.
 - **Esquema de trabajo**: conjunto de turnos de trabajo para un empleado.
+- **TC**: abreviatura de Test Case (caso de prueba en español).
+- **TS**: abreviatura de Test Suite (suite de prueba en español).
 ---
 ## Contexto de las pruebas
 ### Elementos de prueba
@@ -137,9 +138,9 @@ El ambiente de prueba debe contar con los dispositivos pertinentes (computadoras
 Será necesario configurar dispositivos con el siguiente software, según corresponda:
 
 - Sistemas operativos Windows (Windows 10, WS) o distribuciones Linux (Debian o Ubuntu).
-- Navegadores web (Chrome o Firefox).
-- Gestor de Base de Datos (MySQL).
-- Administradores de paquetes.
+- Navegadores web ([Chrome](https://www.google.com/intl/es_es/chrome/) o [Firefox](https://www.mozilla.org/es-AR/firefox/new/)).
+- Gestor de Base de Datos ([MySQL](https://www.mysql.com/)).
+- Administradores de paquetes ([npm](https://www.npmjs.com/) o [pnpm](https://pnpm.io/es/)).
 
 ### Criterios de suspensión y reanudación
 En condiciones normales, se suspenderán al final de la jornada. Toda la documentación debe ser almacenada. Las pruebas se reanudarán al incio de la jornada siguiente.
@@ -239,9 +240,7 @@ Se seguirá el formato de la [plantilla de casos de prueba](/test-cases/template
 
 ### Suites de prueba
 El criterio adoptado para la creación de las suites de prueba
-es el de agrupar los casos de prueba por **módulo/caso de uso**.
-
-Adicionalmente se conformará una **suite de pruebas de regresión**.
+es el de agrupar los casos de prueba por **_módulo_** teniendo en cuenta los **_roles de usuario_**.
 
 ### Defectos
 #### Graduación
@@ -254,10 +253,4 @@ en un plazo razonable, porque existe trabajo pendiente.
 - **Bajo:** el defecto no es crítico y puede ser resuelto cuando
 el tiempo y los recursos lo permitan.
 #### Formato de reporte de defectos
-<!-- ver plantillas de github -->
 Seguir el formato de la [plantilla de defectos](/reports/bug-report-template.md).
-
-
-<!-- ```javascript
-const name = 'sergio'
-``` -->

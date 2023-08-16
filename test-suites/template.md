@@ -1,7 +1,4 @@
 # Test cases template
-
-
-
 ## Nomenclatura para nombrar los archivos:  
 
 _**TC**-**PD**-**01**_  
@@ -28,9 +25,6 @@ Donde:
 | 1 | cliquear en el botón "Nuevo Parte Diario" | Se debe abrir el formulario para crear un nuevo parte diario |
 | 2 | completar los [campos obligatorios](#datos-de-prueba) | Se debe poder completar los campos obligatorios |
 | 3 | cliquear en el botón "Guardar" | Se debe guardar el parte diario y mostrar un mensaje de éxito |
-<!-- | 4 | cliquear en el botón "Cancelar" | Se debe cancelar la creación del parte diario y volver a la pantalla anterior |
-
-ESTO ES FLUJO ALTERNO -->
 
 ## Datos de prueba
 | Campo | Valor |
