@@ -4,12 +4,12 @@ Los casos de prueba diseñados para este proyecto se agruparán en suites. Cada 
 ## Suites de pruebas
 La primera suite de pruebas a nivel general es la siguiente
 #### Login de usuarios
-- [TC-LU-01](TC-LU-01.md): Login sin completar campos obligatorios.
-- [TC-LU-02](TC-LU-02.md): Login con legajo incorrecto.
-- [TC-LU-03](TC-LU-03.md): Login con contraseña incorrecta.
-- [TC-LU-04](TC-LU-04.md): Login exitoso (admin).
-- [TC-LU-05](TC-LU-05.md): Login exitoso (empleado).
-- [TC-LU-06](TC-LU-06.md): Login exitoso (coordinador).
+- [TC-LU-01](login/TC-LU-01.md): Login sin completar campos obligatorios.
+- [TC-LU-02](login/TC-LU-02.md): Login con legajo incorrecto.
+- [TC-LU-03](login/TC-LU-03.md): Login con contraseña incorrecta.
+- [TC-LU-04](login/TC-LU-04.md): Login exitoso (admin).
+- [TC-LU-05](login/TC-LU-05.md): Login exitoso (empleado).
+- [TC-LU-06](login/TC-LU-06.md): Login exitoso (coordinador).
 
 A continuacion se agruparán suites de prueba de acuerdo a los roles de usuario:
 
