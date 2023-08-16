@@ -77,4 +77,4 @@ test('should display success message when add a note', async ({ page }) => {
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts](/e2e/menu_coordinator/ts-daily-part.spec.ts).

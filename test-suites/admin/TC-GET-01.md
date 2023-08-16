@@ -83,4 +83,4 @@ test('must show the month for which the work scheme is to be generated', async (
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-generate-ws.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-generate-ws.spec.ts](/e2e/menu_admin/ts-generate-ws.spec.ts).

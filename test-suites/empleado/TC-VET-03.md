@@ -72,4 +72,4 @@ test('should have the same days which they are visible in detail scheme month', 
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-month-scheme.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-month-scheme.spec.ts](/e2e/menu_employee/ts-month-scheme.spec.ts).

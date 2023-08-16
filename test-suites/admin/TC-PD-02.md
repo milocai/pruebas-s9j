@@ -93,4 +93,4 @@ test('should select "Economato" as the area and display a label indicating that 
 });
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts](/e2e/menu_admin/ts-daily-part.spec.ts).

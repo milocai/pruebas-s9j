@@ -85,4 +85,4 @@ test('should click button detail and show title by area and sector selected', as
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-list-ws.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-list-ws.spec.ts](/e2e/menu_admin/ts-list-ws.spec.ts).

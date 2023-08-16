@@ -82,4 +82,4 @@ test('should show message success when insert date before fifteen', async ({
 
 > **Nota 1:** la prueba se omite si la fecha actual es superior al día 15 del mes actual.
 
-> **Nota 2:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-rest-req.spec.ts]().
+> **Nota 2:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-rest-req.spec.ts](/e2e/menu_employee/ts-rest-req.spec.ts).

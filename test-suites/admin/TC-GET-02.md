@@ -84,4 +84,4 @@ test('should select "Enfermeri­a" as the area and "Torre 25" as the sector and 
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-generate-ws.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-generate-ws.spec.ts](/e2e/menu_admin/ts-generate-ws.spec.ts).

@@ -87,4 +87,4 @@ test('should select commissary as the area and display a label indicating that t
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-daily-part.spec.ts](/e2e/menu_coordinator/ts-daily-part.spec.ts).

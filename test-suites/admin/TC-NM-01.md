@@ -86,4 +86,4 @@ test('should select "Enfermeria" as the area, august as the month and 2023 as ye
 })
 ```
 
-> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-monthly-report.spec.ts]().
+> **Nota:** para mayor comprensión, el código completo de la prueba se encuentra en el archivo [ts-monthly-report.spec.ts](/e2e/menu_admin/ts-monthly-report.spec.ts).
