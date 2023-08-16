@@ -8,16 +8,12 @@
 | **TC-LU-01**          | Log-in de usuarios | Verificar que el sistema impide el acceso y muestra un mensaje de error cuando no se completan los campos requeridos | 1.0 | 27/05/2023 |
 
 ## Pre-requisitos de la prueba:
-N/A.
+1. Se accede a la URL del sistema.
 
 ## Pasos de la prueba:
 | Paso | Acción | Resultado esperado |
 | ---- | ------ | ------------------ |
-| 1 | Acceder a _https://localhost:3000_ | Se debe mostrar en el navegador la pantalla de _inicio de sesión de usuarios_.  |
-| 2 | Cliquear el botón *"Ingresar"* | El sistema señala que los campos obligatorios deben ser completados mediante los mensajes: "El legajo es requerido", "La contraseña es requerida" |
-<!-- | 4 | cliquear en el botón "Cancelar" | Se debe cancelar la creación del parte diario y volver a la pantalla anterior |
-
-ESTO ES FLUJO ALTERNO -->
+| 1 | Cliquear el botón *"Ingresar"* | El sistema señala que los campos obligatorios deben ser completados mediante los mensajes: "El legajo es requerido", "La contraseña es requerida" |
 
 ## Datos de prueba
 | Campo | Valor |
@@ -25,27 +21,30 @@ ESTO ES FLUJO ALTERNO -->
 | URL del sitio | https://localhost:3000 |
 
 ## Implementación
-La prueba automatizada end-to-end necesita las siguientes dependencias: 
+La prueba automatizada end-to-end necesita las siguientes **dependencias**: 
 ```javascript
 import { test, expect } from '@playwright/test'
 ```
-El test se implementa de la siguiente manera:
-```javascript
-test('must show an error message when the inputs are empty', async ({ page }) => {
-  // 1. Acceder a https://localhost:3000
-  await page.goto('http://localhost:3000/')
+Las **precondiciones** se implementan de la siguiente manera:
+```typescript
+test.beforeEach(async ({ page }) => {
+  await page.goto(URL_LOCAL)
+})
+```
 
+El test se implementa de la siguiente manera:
+```typescript
+test('must show an error message when the inputs are empty', async ({
+  page
+}) => {
   const inputRecord = page.getByTestId('input-record')
   const inputPassword = page.getByTestId('input-password')
 
-  // Espera que los campos estén vacíos
   await expect(inputRecord).toContainText('')
   await expect(inputPassword).toContainText('')
 
-  // 2. Cliquear el botón "Ingresar"
-  await page.getByRole('button', { name: /ingresar/i }).click()
+  await page.getByRole('button', { name: LABEL_BUTTON.login }).click()
 
-  // 3. Se espera mensajes de que los campos obligatorios deben ser completados
   await expect(page.getByText('El legajo es requerido')).toBeVisible()
   await expect(page.getByText('La contraseña es requerido')).toBeVisible()
 })
