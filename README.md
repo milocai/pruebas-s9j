@@ -142,12 +142,12 @@ Será necesario configurar dispositivos con el siguiente software, según corres
 ### Criterios de suspensión y reanudación
 En condiciones normales, se suspenderán al final de la jornada. Toda la documentación debe ser almacenada. Las pruebas se reanudarán al incio de la jornada siguiente.
 
-Las pruebas se suspenderán en los siguientes casos:
+Las pruebas se suspenderán en los casos en los que ocurra:
 - Una falla de severidad alta es observada.
-- Ocurre alguna falla en el entorno.
-- Ocurren fallas de hardware en el ambiente.
-- Ocurren fallas en operaciones básicas (CRUD).
-- Ocurren fallas en la comunicación entre el cliente y el servidor.
+- Alguna falla en el entorno.
+- Fallas de hardware en el ambiente.
+- Fallas en operaciones básicas (CRUD).
+- Fallas en la comunicación entre el cliente y el servidor.
 
 Si el defecto que causa la falla del sistema es resuelto, se ejecutarán las pruebas de regresión a la nueva versión. Si la nueva versión de prueba pasa la prueba de regresión, entonces puede reanudarse la ejecución de pruebas.
 
@@ -232,12 +232,14 @@ Los casos de prueba diseñados se encuentran en el siguiente [repositorio](test-
 
 ### Formato de casos de prueba
 
-Se seguirá el formato de la [plantilla de casos de prueba](/test-cases/template.md).
+Se seguirá el formato de la [plantilla de casos de prueba](/test-suites/template.md).
 
 
 ### Suites de prueba
 El criterio adoptado para la creación de las suites de prueba
 es el de agrupar los casos de prueba por **_módulo_** teniendo en cuenta los **_roles de usuario_**.
+
+> Acceda a las suites de prueba [aquí](/test-suites).
 
 ### Defectos
 #### Graduación
