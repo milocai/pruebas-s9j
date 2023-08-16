@@ -53,10 +53,7 @@ Quedarán, por lo tanto, excluidos módulos que ya fueron probados como:
 - Gestión de usuarios.
 - Gestión de empleados.
 - Gestión de áreas y sectores.
-### Referencias
-- [Casos de prueba diseñados](test-cases)
-- [Suites de pruebas](test-suites)
-- Informes, etc.
+
 ### Glosario
 Se presentan las siguientes definiciones, acrónimos y abreviaturas utilizadas:
 - **S9J**: Sanatorio 9 de Julio S.A.
@@ -231,7 +228,7 @@ Se adopta el enfoque del _**"camino feliz"**_ en la automatización de las prueb
 En flujos alternativos se probarán manualmente adoptando un enfoque **_negativo_**, es decir, buscando la falla del sistema.
 
 ### Casos de prueba
-Los casos de prueba diseñados se encuentran en el siguiente [repositorio](test-cases).
+Los casos de prueba diseñados se encuentran en el siguiente [repositorio](test-suites).
 
 ### Formato de casos de prueba
 
