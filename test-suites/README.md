@@ -69,3 +69,5 @@ A continuacion se agruparán suites de prueba de acuerdo a los roles de usuario:
     - [TC-VET-02](empleado/TC-VET-02.md): Visualizar título que indica el mes para el cual se genera el esquema.
     - [TC-VET-03](empleado/TC-VET-03.md): Comprobar que la cantidad de días del mes es correcta.
     - [TC-VET-04](empleado/TC-VET-04.md): Se muestra el último esquema de trabajo confirmado.
+
+> **NOTA**: Datos de entrada para todos los TC se encuentran en: [config.ts](/e2e/config.tsx)
