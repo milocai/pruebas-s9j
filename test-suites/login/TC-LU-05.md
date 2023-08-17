@@ -15,7 +15,7 @@
 | ---- | ------ | ------------------ |
 | 1 | Tipear *"1235"* en el campo **Legajo** | Se muestra el legajo ingresado en el campo **Legajo** |
 | 2 | Tipear *"Passw0rd.1234"* en el campo **Contraseña** | Se muestra de forma oculta la contraseña ingresada en el campo **Contraseña** |
-| 3 | Cliquear el botón **Ingresar** | El sistema redirige a la ruta *http://localhost:3000/economato/employee/rest-request* y muestra el contenido de la página correspondiente |
+| 3 | Cliquear el botón **Ingresar** | El sistema redirige a la ruta *http://localhost:3000/employee/rest-request* y muestra el contenido de la página correspondiente |
 
 
 ## Datos de prueba
