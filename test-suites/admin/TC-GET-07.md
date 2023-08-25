@@ -6,7 +6,8 @@
 
 | ID del caso de prueba | C. Uso/ Módulo | Objetivo de la prueba                                                                        | Versión del sistema | Fecha de creación |
 | --------------------- | -------------- | -------------------------------------------------------------------------------------------- | ------------------- | ----------------- |
-| **TC-GET-07**          | Generar Esquema de Trabajo | Verificar que el sistema muestran mensajes de éxito y guarda los cambios realizados en un esquema de trabajo | 1.0                 | 22/07/2023        |
+| **TC-GET-07**          | Generar Esquema de Trabajo | Verificar 
+ | 1.0                 | 22/07/2023        |
 
 ## Pre-requisitos de la prueba:
 
